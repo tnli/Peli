@@ -1,3 +1,6 @@
+# code copyright Taneli Pirinen (tnli@iki.fi) 2020, Free for non-commercial use,
+# but do buy me a beer if you enjoy it
+
 import pygame
 import random
 
@@ -108,10 +111,10 @@ class Peli:
         self.silmukka()
 
     def lataa_kuvat(self):
-        self.robo_kuva = pygame.image.load("robo.png")
-        self.hirvio_kuva = pygame.image.load("hirvio.png")
-        self.kolikko_kuva = pygame.image.load("kolikko.png")
-        self.ovi_kuva = pygame.image.load("ovi.png")
+        self.robo_kuva = pygame.image.load("images/robo.png")
+        self.hirvio_kuva = pygame.image.load("images/hirvio.png")
+        self.kolikko_kuva = pygame.image.load("images/kolikko.png")
+        self.ovi_kuva = pygame.image.load("images/ovi.png")
 
     def uusi_peli(self):
         self.voittaja = ""
